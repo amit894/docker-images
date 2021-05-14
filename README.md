@@ -23,3 +23,4 @@ Repo's for Learning Docker
 - `docker rm <container-id>` - Removes a stopped container
 - `docker image rm <image-id>` - Removes an image
 -  `docker container ls`  - List all running containers
+- `docker rmi $(docker images -a -q)` - Docker remove all images
